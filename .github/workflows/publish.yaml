@@ -11,9 +11,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          sparse-checkout: .
-        
         
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -22,6 +19,6 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Publish package
-        run: npm publish --access public
+        run: cd $GITHUB_WORKSPACE && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
