@@ -19,6 +19,6 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Publish package
-        run: cd $GITHUB_WORKSPACE && npm publish --access public
+        run: cd my-bottom-sheet && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
