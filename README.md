@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dw/my-bottom-sheet)](https://www.npmjs.com/package/my-bottom-sheet)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-BottomSheet component for React Native.
+BottomSheet component for React Native
 
 <!-- ![toast gif](./docs/toast.gif) -->
 
