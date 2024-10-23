@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@antbase/react-native-bottom-sheet": [
+      "my-bottom-sheet": [
         "./src/index"
       ]
     },
